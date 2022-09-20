@@ -1,0 +1,14 @@
+{
+  "name": "chatwebapp",
+  "version": "1.0.0",
+  "description": "this is a node server for our chatwebapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.5.1"
+  }
+}

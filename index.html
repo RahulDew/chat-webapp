@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitra Chat App</title>
+    <script defer  src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav>
+        <div class="intro">!!! Welcome to Mitra Chat App !!!</div>
+    </nav>
+    <div class="container">
+        <div id="user"></div>
+        <div class="start">Start your chat with no restriction, your data is safe</div>
+
+        
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container" >
+            <input type="text" name="messageInp"  id="messageInp" placeholder="Type your message..." >
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+</body>
+</html>
